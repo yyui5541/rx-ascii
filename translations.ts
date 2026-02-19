@@ -1,0 +1,82 @@
+import { Language } from './types';
+
+export const translations = {
+  en: {
+    title: "Rx:ASCII",
+    subtitle: "// DIAGNOSTIC_TERMINAL_V3.0 // LOCAL_CORE",
+    sessionId: "SESSION_ID",
+    sysStatus: "SYS_STATUS",
+    online: "ONLINE",
+    inputSource: "INPUT_SOURCE",
+    dragDrop: "DRAG_DROP OR CLICK_TO_SCAN",
+    supportParams: "SUPPORT: JPG, PNG, WEBP",
+    imgLoaded: "IMG_LOADED",
+    original: "ORIGINAL",
+    renderConfig: "RENDER_CONFIG",
+    charSet: "CHARACTER_SET",
+    customString: "CUSTOM_STRING",
+    enterChars: "Enter chars...",
+    colorMode: "COLOR_MODE",
+    modes: {
+      MONO: "MEDICAL_MONO",
+      VINTAGE_GREEN: "PHOSPHOR_GREEN",
+      CYBER_PINK: "GLITCH_PINK",
+      ORIGINAL: "ORIGINAL_RGB"
+    },
+    resWidth: "RESOLUTION_WIDTH",
+    contrast: "CONTRAST_THRESHOLD",
+    outputBuffer: "OUTPUT_BUFFER // VISUAL_FEED",
+    waiting: "WAITING_FOR_INPUT...",
+    processing: "PROCESSING...",
+    rendering: "RENDERING...",
+    refresh: "REFRESH",
+    export: "EXPORT",
+    dimensions: "DIMENSIONS",
+    scale: "SCALE",
+    footerAuth: "RX_ASCII_SYSTEM © 2025 // AUTHORIZED PERSONNEL ONLY",
+    footerMem: "MEMORY_USAGE: LOW // LATENCY: 12ms",
+    error: "SYSTEM_ERROR",
+    langSwitch: "EN/中文",
+    selectLang: "LANGUAGE"
+  },
+  zh: {
+    title: "Rx:ASCII",
+    subtitle: "// 诊断终端_V3.0 // 本地核心模式",
+    sessionId: "会话ID",
+    sysStatus: "系统状态",
+    online: "在线",
+    inputSource: "输入源",
+    dragDrop: "拖拽 或 点击扫描",
+    supportParams: "支持格式: JPG, PNG, WEBP",
+    imgLoaded: "图像已加载",
+    original: "原始图像",
+    renderConfig: "渲染配置",
+    charSet: "字符集",
+    customString: "自定义字符",
+    enterChars: "输入字符...",
+    colorMode: "色彩模式",
+    modes: {
+      MONO: "医疗单色",
+      VINTAGE_GREEN: "荧光绿",
+      CYBER_PINK: "故障粉",
+      ORIGINAL: "原始RGB"
+    },
+    resWidth: "分辨率宽度",
+    contrast: "对比度阈值",
+    outputBuffer: "输出缓冲 // 视觉反馈",
+    waiting: "等待输入...",
+    processing: "处理中...",
+    rendering: "渲染中...",
+    refresh: "刷新",
+    export: "导出",
+    dimensions: "尺寸",
+    scale: "缩放",
+    footerAuth: "RX_ASCII系统 © 2025 // 仅限授权人员",
+    footerMem: "内存占用: 低 // 延迟: 12ms",
+    error: "系统错误",
+    langSwitch: "EN/中文",
+    selectLang: "语言 / LANG"
+  }
+};
+
+export const getTranslation = (lang: Language) => translations[lang];

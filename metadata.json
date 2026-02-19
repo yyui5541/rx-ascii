@@ -1,0 +1,5 @@
+{
+  "name": "DIAGNOSTIC_TERMINAL // Rx:ASCII",
+  "description": "A medical-cyber aesthetic image processor that converts images to ASCII art.",
+  "requestFramePermissions": []
+}
